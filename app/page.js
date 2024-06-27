@@ -13,7 +13,7 @@ const HomePage = () => {
 
   return (
     <div className={`${bgColor} min-h-screen flex flex-col`}>
-      <NavBar />
+      <Navbar />
       <div className="flex-grow flex items-center justify-center">
         <PomodoroTimer onBackgroundChange={handleBackgroundChange} />
       </div>

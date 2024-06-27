@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const NavBar = () => {
+const Navbar = () => {
   return (
     <nav className="flex justify-between items-center p-4 bg-gray-800 text-white">
       <Image src="/tomato.png" alt="My Logo" width={50} height={50} />
@@ -29,4 +29,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
