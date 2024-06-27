@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import NavBar from '../components/NavBar';
+import Navbar from '../components/Navbar';
 import PomodoroTimer from '../components/PomodoroTimer';
 
 const HomePage = () => {
