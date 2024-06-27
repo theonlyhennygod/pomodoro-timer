@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="flex justify-between items-center p-4 bg-gray-800 text-white">
       <Image src="/tomato.png" alt="My Logo" width={50} height={50} />
       <a
-        href="https://github.com/"
+        href="https://github.com/pomodoro-timer"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center bg-black text-white px-4 py-2 rounded"
